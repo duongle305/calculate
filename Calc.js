@@ -9,7 +9,7 @@
 class Calc {
     $table = $('.tblKetQuaHocTap');
     $trs = this.$table.find('tr');
-    // Danh sách mã môn học không công vào điểm trung bình tích lũy
+    // Danh sách mã môn học không cộng vào điểm trung bình tích lũy chi tiết tại: https://sv.ut.edu.vn/XemChuongTrinhKhung.aspx
     exceptCourses = ['007006', '004001', '007007', '004002', '007008', '004003'];
     semesters = [];
 
