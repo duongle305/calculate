@@ -1,6 +1,15 @@
+/* 
+    *****| Code chỉ dành cho sinh viên GTS |*****
+    - Truy cập trang sinh viên: https://sv.ut.edu.vn
+    - Đăng nhập tải khoản sinh viên
+    - Vào trang "Kết quả học tập" -> https://sv.ut.edu.vn/Xemdiem.aspx
+    - Copy đoạn code bên dưới và past ở tab console của chrome.
+*/
+
 class Calc {
     $table = $('.tblKetQuaHocTap');
     $trs = this.$table.find('tr');
+    // Danh sách mã môn học không công vào điểm trung bình tích lũy
     exceptCourses = ['007006', '004001', '007007', '004002', '007008', '004003'];
     semesters = [];
 
